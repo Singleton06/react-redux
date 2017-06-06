@@ -15,7 +15,7 @@ describe('Course Actions', () => {
       const expectedAction = {
         type: types.CREATE_COURSE_SUCCESS,
         course: course
-      }
+      };
 
       // act
       const action = courseActions.createCourseSuccess(course);
